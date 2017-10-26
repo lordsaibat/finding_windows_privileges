@@ -14,14 +14,24 @@ https://blogs.technet.microsoft.com/ashleymcglone/2016/02/26/install-the-active-
 
 
 To search for users with Bad Privileges on the localhost
-'''
-Find-BadPrivilege
-'''
+
+PS> Find-BadPrivilege
+
+Accounts with Bad Privileges on localhost
+
+Accounts with SeCreateTokenPrivilege
+CN=TestCN,OU=TestOU,DC=DC,DC=lab
+........................
+
 
 To seach for users with Bad Privileges on all the computers in the domain
 
-'''
-Find-BadPrivilegeDomain
-''''
+PS> Find-BadPrivilegeDomain
+
+Accounts with Bad Privileges on DC1
+
+Accounts with SeCreateTokenPrivilege
+CN=TestCN,OU=TestOU,DC=DC,DC=lab
+........................
 
 Learn more about the script and how this script filled a gap in privileges at:
