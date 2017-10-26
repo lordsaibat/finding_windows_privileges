@@ -20,7 +20,9 @@ PS> Find-BadPrivilege
 Accounts with Bad Privileges on localhost
 
 Accounts with SeCreateTokenPrivilege
+
 CN=TestCN,OU=TestOU,DC=DC,DC=lab
+
 ........................
 
 
@@ -31,7 +33,9 @@ PS> Find-BadPrivilegeDomain
 Accounts with Bad Privileges on DC1
 
 Accounts with SeCreateTokenPrivilege
+
 CN=TestCN,OU=TestOU,DC=DC,DC=lab
+
 ........................
 
 Learn more about the script and how this script filled a gap in privileges at:
