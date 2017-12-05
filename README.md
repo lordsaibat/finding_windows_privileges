@@ -39,3 +39,4 @@ CN=TestCN,OU=TestOU,DC=DC,DC=lab
 ........................
 
 Learn more about the script and how this script filled a gap in privileges at:
+http://www.sans.org/reading-room/whitepapers/sysadmin/effectiveness-tools-detecting-039-maleficent-seven-039-privileges-windows-environment-38220
