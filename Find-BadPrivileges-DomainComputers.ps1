@@ -1159,7 +1159,7 @@ function Find-BadPrivilegesDomain{
 
  #>
  
- $Computers = Get-ADComputer -Filter *
+ $Computers = Get-NetComputer
  
  $Computers | ForEach-Object {  
  Find-BadPrivileges -ComputerName $_
